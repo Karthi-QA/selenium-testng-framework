@@ -19,19 +19,10 @@ TestNG and Page Object Model (POM) in Java.
 - TestNG XML suite management
 
 ## Project Structure
-
-src/
-├── main/java/com/testng/framework/
-│ ├── base/BaseTest.java
-│ ├── pages/LoginPage.java
-│ ├── pages/DashboardPage.java
-│ ├── pages/CartPage.java
-│ └── utils/DriverManager.java
-│ └── utils/ConfigReader.java
-└── test/java/TestClasses/
-├── LoginTest.java
-├── DashboardTest.java
-└── CartTest.java
+Page = locators only. 
+Test = assertions only. 
+Base = setup only.
+Utility = Configuration & Driver management
 
 ## How to Run
 
