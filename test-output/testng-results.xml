@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-31T22:57:42 IST" name="Sauce Demo Test Suite" finished-at="2026-05-31T22:58:35 IST" duration-ms="53488">
+    <groups>
+    </groups>
+    <test started-at="2026-05-31T22:57:42 IST" name="All Tests" finished-at="2026-05-31T22:58:35 IST" duration-ms="53488">
+      <class name="TestClasses.cartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestClasses.cartTest@74e52ef6]" started-at="2026-05-31T22:58:11 IST" name="setUp" finished-at="2026-05-31T22:58:23 IST" duration-ms="12144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestClasses.cartTest@74e52ef6]" started-at="2026-05-31T22:58:12 IST" name="setUp" finished-at="2026-05-31T22:58:23 IST" duration-ms="10926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddOneProductToCart()[pri:0, instance:TestClasses.cartTest@74e52ef6]" started-at="2026-05-31T22:58:23 IST" name="testAddOneProductToCart" description="Adding one product should show badge count as 1" finished-at="2026-05-31T22:58:24 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddOneProductToCart -->
+        <test-method signature="testAddMultipleProductsToCart()[pri:0, instance:TestClasses.cartTest@74e52ef6]" started-at="2026-05-31T22:58:23 IST" name="testAddMultipleProductsToCart" description="Adding multiple products should reflect correct count" finished-at="2026-05-31T22:58:24 IST" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMultipleProductsToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestClasses.cartTest@74e52ef6]" started-at="2026-05-31T22:58:24 IST" name="tearDown" finished-at="2026-05-31T22:58:25 IST" duration-ms="1266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestClasses.cartTest@74e52ef6]" started-at="2026-05-31T22:58:24 IST" name="tearDown" finished-at="2026-05-31T22:58:25 IST" duration-ms="991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestClasses.cartTest@74e52ef6]" started-at="2026-05-31T22:58:25 IST" name="setUp" finished-at="2026-05-31T22:58:32 IST" duration-ms="7167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRemoveProductFromCart()[pri:0, instance:TestClasses.cartTest@74e52ef6]" started-at="2026-05-31T22:58:32 IST" name="testRemoveProductFromCart" description="Removing item from cart should reduce count" finished-at="2026-05-31T22:58:32 IST" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveProductFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestClasses.cartTest@74e52ef6]" started-at="2026-05-31T22:58:32 IST" name="tearDown" finished-at="2026-05-31T22:58:35 IST" duration-ms="2969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestClasses.cartTest -->
+      <class name="TestClasses.loginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestClasses.loginTest@292b08d6]" started-at="2026-05-31T22:57:42 IST" name="setUp" finished-at="2026-05-31T22:57:54 IST" duration-ms="11808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestClasses.loginTest@292b08d6]" started-at="2026-05-31T22:57:42 IST" name="setUp" finished-at="2026-05-31T22:57:55 IST" duration-ms="12943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidLogin()[pri:0, instance:TestClasses.loginTest@292b08d6]" started-at="2026-05-31T22:57:54 IST" name="testInvalidLogin" description="Invalid login should show error" finished-at="2026-05-31T22:57:54 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestClasses.loginTest@292b08d6]" started-at="2026-05-31T22:57:54 IST" name="tearDown" finished-at="2026-05-31T22:57:59 IST" duration-ms="4656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testValidLogin()[pri:0, instance:TestClasses.loginTest@292b08d6]" started-at="2026-05-31T22:57:55 IST" name="testValidLogin" description="Valid login should land on dashboard" finished-at="2026-05-31T22:57:55 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestClasses.loginTest@292b08d6]" started-at="2026-05-31T22:57:55 IST" name="tearDown" finished-at="2026-05-31T22:57:56 IST" duration-ms="752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestClasses.loginTest -->
+      <class name="TestClasses.dashboardTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestClasses.dashboardTest@62ddbd7e]" started-at="2026-05-31T22:57:56 IST" name="setUp" finished-at="2026-05-31T22:58:09 IST" duration-ms="13415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestClasses.dashboardTest@62ddbd7e]" started-at="2026-05-31T22:57:59 IST" name="setUp" finished-at="2026-05-31T22:58:11 IST" duration-ms="12421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDashboardTitle()[pri:0, instance:TestClasses.dashboardTest@62ddbd7e]" started-at="2026-05-31T22:58:09 IST" name="testDashboardTitle" description="Dashboard should display Products title after login" finished-at="2026-05-31T22:58:10 IST" duration-ms="585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDashboardTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestClasses.dashboardTest@62ddbd7e]" started-at="2026-05-31T22:58:10 IST" name="tearDown" finished-at="2026-05-31T22:58:11 IST" duration-ms="1327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testProductCount()[pri:0, instance:TestClasses.dashboardTest@62ddbd7e]" started-at="2026-05-31T22:58:11 IST" name="testProductCount" description="Dashboard should display 6 products" finished-at="2026-05-31T22:58:11 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestClasses.dashboardTest@62ddbd7e]" started-at="2026-05-31T22:58:11 IST" name="tearDown" finished-at="2026-05-31T22:58:12 IST" duration-ms="993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestClasses.dashboardTest -->
+    </test> <!-- All Tests -->
+  </suite> <!-- Sauce Demo Test Suite -->
+</testng-results>
